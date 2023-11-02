@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.list-item {
+    margin: 5px 10px;
+}
+
+.welcome {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.random-info {
+    padding: 20px;
+}
+
+.random-title {
+    text-align: center;
+    padding-y: 0 20px;
+}
+
+.random-info-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.random-info-item-img {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.random-info-item-caption {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    padding: 50px;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+.sign-up-section {
+    margin: 50px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-section-title h1 {
+    font-size: 20px;
+}
+
+.sign-up-section-title p {
+    font-size: 15px;
+}
+
+.sign-up-section-title {
+    color: white;
+}
+
+.navigator,
+footer {
+    background-color: #1F2937;
+}
+
+.nav-logo,
+.welcome-title {
+    color: #F9FAF8;
+}
+
+.nav-logo {
+    font-size: 24px;
+}
+
+.welcome-tile {
+    font-size: 48px;
+    font-weight: extra-bold
+}
+
+.welcome-description,
+.list-item {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, 
+.sign-up-section {
+    background-color: #3882F6;
+}
+
+
+// MAIN RANDOM INFO
+.random-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+// MAIN QUOTE
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+// FOOTER
+footer {
+    color: white;
+    text-align: center;
+}
