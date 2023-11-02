@@ -1,139 +1,139 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .navigator {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
 }
 
 .nav-list {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .list-item {
-    margin: 5px 10px;
+  margin: 5px 10px;
 }
 
 .welcome {
-    padding: 30px 50px;
-    display: flex;
-    justify-content: space-between;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .random-info {
-    padding: 20px;
+  padding: 20px;
 }
 
 .random-title {
-    text-align: center;
-    padding-y: 0 20px;
+  text-align: center;
+  padding-y: 0 20px;
 }
 
 .random-info-list {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .random-info-item-img {
-    height: 40px;
-    width: 40px;
-    border: 2px solid #3882F6;
-    border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
 }
 
 .random-info-item-caption {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
 }
 
 .quote {
-    padding: 50px;
+  padding: 50px;
 }
 
 .quote-author {
-    text-align: right;
+  text-align: right;
 }
 
 .sign-up-section {
-    margin: 50px;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
+  margin: 50px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
 .sign-up-section-title h1 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .sign-up-section-title p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .sign-up-section-title {
-    color: white;
+  color: white;
 }
 
-.navigator,
+header,
 footer {
-    background-color: #1F2937;
+  background-color: #1f2937;
 }
 
-.nav-logo,
+.logo,
 .welcome-title {
-    color: #F9FAF8;
+  color: #f9faf8;
 }
 
 .nav-logo {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .welcome-tile {
-    font-size: 48px;
-    font-weight: extra-bold
+  font-size: 48px;
+  font-weight: extra-bold;
 }
 
 .welcome-description,
 .list-item {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-button, 
+button,
 .sign-up-section {
-    background-color: #3882F6;
+  background-color: #3882f6;
 }
-
 
 // MAIN RANDOM INFO
 .random-title {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1F2937;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
 }
 
 // MAIN QUOTE
 .quote {
-    background-color: #E5E7EB;
+  background-color: #e5e7eb;
 }
 
 .quote-content {
-    font-size: 36px;
-    font-style: light italic;
-    color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .quote-author {
-    font-weight: bold;
-    font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 // FOOTER
-footer {
-    color: white;
-    text-align: center;
+.footer-content {
+  color: white;
+  text-align: center;
 }
